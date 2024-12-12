@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Siti Raihani Al-Asyura</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<style>
+    /* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 3%;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f2f2f2;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Header Navigation */
+header {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Container for the form */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.container h1 {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Form Styles */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}
+
+
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #777;
+}
+</style>
+<body>
+    <div class="container">
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="CV Hanoy.pdf">Download CV</a>
+            <a href="i-contact.html">Contact</a>
+            <a href="i-about.html">About me</a>
+        </nav>
+        <hr>
+    <div class="container">
+        <h1>Contact Me</h1>
+        <form class="contact-form">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="alamat email" required>
+    
+          <label for="message">Pesan</label>
+          <textarea id="message" rows="5" placeholder="Tulis pesan anda..." required></textarea>
+    
+          <button type="submit">Kirim</button>
+        </form>
+      </div>
+    
+      <footer>
+        <p>Copyright © 2024 Siti Raihani Al-Asyura</p>
+      </footer>
+    </body>
+    </html>

@@ -1,0 +1,134 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f2f2f2;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    max-width: 800px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9em;
+}
+
+.navbar a:hover {
+    color: #0027d4;
+    text-decoration: underline;
+}
+
+/* header bg image */
+header {
+    text-align: center;
+    margin-bottom: 100px;
+    background-image: url(image/bgfinish.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 40px 20px;
+    position: relative;
+}
+
+.profile-pic-container {
+    position: center;
+}
+
+.profile-pic {
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+}
+
+header h1 {
+    display: inline-block; 
+    background-color: #f5f5dc; 
+    padding: 10px 20px; 
+    border-radius: 0; 
+    color: black;
+    
+}
+
+header p {
+    display: inline-block; 
+    background-color: #f5f5dc; 
+    padding: 10px 20px; 
+    border-radius: 0; 
+    color: rgb(0, 0, 0);
+}
+
+article-container {
+    max-width: 600px; /* Lebar maksimal untuk paragraf agar teks lebih mudah dibaca */
+    margin: 0 auto; /* Posisikan artikel di tengah halaman */
+    padding: 20px;
+    text-align: center; /* Buat teks berada di tengah */
+}
+
+article h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+article p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6; /* Tambahkan jarak antar baris agar lebih nyaman dibaca */
+    margin-bottom: 15px; /* Spasi antar paragraf */
+}
+
+/* Overview Section */
+.overview {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.overview h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.overview p {
+    font-size: 1em;
+    color: #555;
+}
+
+div{
+    text-align: center;
+    max-width: 680px;
+    margin: 3em auto;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #888;
+}
